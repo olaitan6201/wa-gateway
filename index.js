@@ -8,7 +8,7 @@ const path = require("path");
 const MainRouter = require("./app/routers");
 const errorHandlerMiddleware = require("./app/middlewares/error_middleware");
 const whatsapp = require("wa-multi-session");
-const serverless = require('serverless-http');
+// const serverless = require('serverless-http');
 
 config();
 
@@ -53,4 +53,4 @@ whatsapp.onConnecting((session) => {
 
 whatsapp.loadSessionsFromStorage();
 
-module.exports = serverless(app)
+module.exports = app
