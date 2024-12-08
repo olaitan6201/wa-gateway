@@ -1,6 +1,7 @@
 {
   "name": "wa-gateway",
   "version": "3.5.0",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js --ignore ./wa_credentials --ignore ./public",
@@ -21,7 +22,9 @@
     "http-errors": "~1.6.3",
     "moment": "^2.29.4",
     "morgan": "~1.9.1",
+    "nodemon": "^3.1.7",
     "qrcode": "^1.5.1",
+    "serverless-http": "^3.2.0",
     "wa-multi-session": "^3.5.0"
   },
   "repository": {
