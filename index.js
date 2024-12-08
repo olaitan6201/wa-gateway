@@ -8,7 +8,6 @@ const path = require("path");
 const MainRouter = require("./app/routers");
 const errorHandlerMiddleware = require("./app/middlewares/error_middleware");
 const whatsapp = require("wa-multi-session");
-// const serverless = require('serverless-http');
 
 config();
 

@@ -24,7 +24,6 @@
     "morgan": "~1.9.1",
     "nodemon": "^3.1.7",
     "qrcode": "^1.5.1",
-    "serverless-http": "^3.2.0",
     "wa-multi-session": "^3.5.0"
   },
   "repository": {
